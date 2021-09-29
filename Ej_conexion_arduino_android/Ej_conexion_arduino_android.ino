@@ -41,7 +41,7 @@ void setup() {
   Bluefruit.begin();
   // Set max power. Accepted values are: -40, -30, -20, -16, -12, -8, -4, 0, 4
   Bluefruit.setTxPower(4);
-  Bluefruit.setName("SparkFun_nRF52840");
+  Bluefruit.setName("AusiasBM_nRF52840");
   bleuart.begin();
 
   // Start advertising device and bleuart services

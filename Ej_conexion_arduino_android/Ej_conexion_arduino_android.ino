@@ -91,5 +91,6 @@ void loop() {
     lastButtonState = buttonState;
     // Write the new button state to the bleuart TX char
     bleuart.write(!buttonState);
+    Serial.println("--->" + !buttonState);
   }
 }

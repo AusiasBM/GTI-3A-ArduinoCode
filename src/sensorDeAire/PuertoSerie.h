@@ -16,9 +16,9 @@ class PuertoSerie  {
 
         void esperarDisponible() {
 
-            while ( !Serial ) {
+            //while ( !Serial ) {
             delay(10);   
-            }
+            //}
 
         } // ()
 
